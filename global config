@@ -1,0 +1,6 @@
+git config --global -l
+http.proxy=http://sjc1intproxy01.crd.ge.com:8080/
+https.proxy=http://sjc1intproxy01.crd.ge.com:8080/
+
+unset proxy 
+git config --global --unset http.proxy
