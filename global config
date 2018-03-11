@@ -4,3 +4,7 @@ https.proxy=http://sjc1intproxy01.crd.ge.com:8080/
 
 unset proxy 
 git config --global --unset http.proxy
+
+
+git config --local --add user.name jensonjoseph
+git config --local --add user.email jenson.joseph@outlook.com
