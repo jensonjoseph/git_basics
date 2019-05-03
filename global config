@@ -9,7 +9,7 @@ git config --global --unset https.proxy
 
 set proxy 
 git config --global --add http.proxy http://sjc1intproxy01.crd.ge.com:8080/
-git config --global --add https.proxy=http://sjc1intproxy01.crd.ge.com:8080/
+git config --global --add https.proxy http://sjc1intproxy01.crd.ge.com:8080/
 
 
 git config --local --add user.name jensonjoseph
